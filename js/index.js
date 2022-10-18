@@ -43,7 +43,9 @@ function fizzbuzz(num) {
 function reverseString(str) {
   let reversedStr = "";
   for (let i = 0; i < str.length; i++) {
+    console.log(reversedStr, i);
     reversedStr = str[i] + reversedStr;
   }
   return reversedStr;
 }
+console.log(reverseString('daniel'))
